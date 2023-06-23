@@ -6,6 +6,7 @@ import { useEffect } from "react";
 //import { SSRProvider } from "react-bootstrap";
 import '../../assets/scss/globals.css'
 
+
 export default function App({ Component, pageProps }: AppProps) {
 
   return (
