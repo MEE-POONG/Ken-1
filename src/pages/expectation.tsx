@@ -27,13 +27,8 @@ export default function Expectation() {
                 </div>
             </nav>
 
-            <button className="bg-red-500 shadow-lg shadow-red-500/50 h-[50px] w-[100px] ">Subscribe</button>
-        
-            <h1 className="text-4xl font-bold text-white">
-  <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-purple-500 drop-shadow-2xl">
-    Neon Text
-  </span>
-</h1>
+            
+            
 
 
 
