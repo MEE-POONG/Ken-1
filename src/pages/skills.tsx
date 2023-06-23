@@ -6,20 +6,23 @@ import Link from 'next/link'
 export default function Skills(){
     return(
         <>
-        
-        <nav className="bg-blue-700">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-10">
+        <Head>
+        <title>Skills</title>
+      </Head>
+
+        <nav className="bg-red outline outline-neutral-300 ">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-10 shadow-[0_10px_20px_rgba(240,_46,_170,_0.7)]">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link href="/">
-            <img className='w-10 h-10 hover:bg-red-500' src="https://icon-library.com/images/white-home-icon-png/white-home-icon-png-21.jpg" />
+            <img className='w-10 h-10 hover:bg-blue-500' src="https://icon-library.com/images/white-home-icon-png/white-home-icon-png-21.jpg" />
             </Link>
           </div>
           <div className="flex space-x-5 text-white  text-[20px]">
-            <Link href="/skills" className='text-red-500 hover:text-white' >
+            <Link href="/skills" className='neonred text-blue-500 hover:text-white' >
               Skills 
             </Link>
-            <Link href="/expectation " className='hover:text-red-500'>
+            <Link href="/expectation " className='hover:text-blue-500'>
               Expectation 
             </Link>
           
@@ -32,9 +35,9 @@ export default function Skills(){
 
 
             <div className="flex justify-center items-center  ">
-                <div className='h-[720px] w-[900px] rounded-lg p-5 bg-sky-500 outline outline-black mb-10'>
-                    <ul className='text-white text-[20px] space-y-4'>
-                        <p className='outline outline-black text-center font-sans font-bold text-[20px]  text-white bg-rose-500 rounded-3xl mb-2'>Skills</p>
+                <div className='shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] h-[720px] w-[900px] rounded-lg p-5 bg-rose-200 outline outline-black mb-10'>
+                    <ul className='text-black text-[20px] space-y-4'>
+                        <p className='neonred outline outline-black text-center font-sans font-bold text-[20px]  text-white bg-rose-500 rounded-3xl mb-2'>Skills</p>
                         <li>English </li>
                         <div className=" border border-black w-full bg-gray-200 rounded-full dark:bg-gray-700 mt-4">
                             <div className="bg-green-600  w-[35%]  text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full"> 35%</div>
