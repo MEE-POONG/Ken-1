@@ -5,7 +5,7 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <>
-    <body>
+    
       
     
       <Head>
@@ -14,7 +14,7 @@ export default function Home() {
    
 
     
-      <nav className="bg-red outline outline-neutral-300  shadow-[0_10px_20px_rgba(240,_46,_170,_0.7)]">
+      <nav className=" outline outline-neutral-300  shadow-[0_10px_20px_rgba(240,_46,_170,_0.7)]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
@@ -35,25 +35,20 @@ export default function Home() {
       </div>
     </nav>
 
-
-   
-
-    
-
-      <div className=' neonred rounded-t-xl bg-black text-center font-sans text-[50px] font-bold text-red-500 mt-10 ml-20 mr-20   '> Portforlio </div>
-      
-
-      <div className="grid grid-cols-2 justify-center ml-20 mr-20 shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]">
-        <div className=' bg-rose-200 rounded-bl-xl border border-black '>
-          <div className=' flex justify-center items-center'>
-            <img className='shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] mt-10 mb-10 rounded-2xl 'src="https://scontent.fnak3-1.fna.fbcdn.net/v/t39.30808-6/335591418_1566633160499640_8499768689655654892_n.jpg?stp=cp6_dst-jpg&_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGVhqex103dwMYAtlsw0DX6NPcwzHG5f3E09zDMcbl_ccNgwexChmjS4RJPz5A6PUbXawYUTwJRFuzNIU3i04oS&_nc_ohc=nHtkz_YHJzQAX92tvac&_nc_ht=scontent.fnak3-1.fna&oh=00_AfASemEO0t7VMS0Zesma3EX4WwENoxQVXWwL2C-HhZ9pCQ&oe=64999430" width={400} /></div>
+<div className='mt-10 max-sm:mb-20 md:mb-20 lg:mb-20  '>
+    <div className="grid grid-cols-1  ml-10 mr-10 shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] ">
+            <div className=' rounded-t-xl max-sm:text-[25px] neonred  bg-black text-center font-sans text-[50px] font-bold text-red-500   '> Portforlio 
+            </div>
             
+            <div className="grid grid-cols-2 max-sm:grid-cols-1 ">
+  <div className="border bg-rose-200 justify-center items-center flex ">
+    <img className=' w-[400] max-sm:w-[200px] md:w-[280px] lg:w-[400px] shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] mt-10 mb-10 rounded-2xl 'src="https://scontent.fnak3-1.fna.fbcdn.net/v/t39.30808-6/335591418_1566633160499640_8499768689655654892_n.jpg?stp=cp6_dst-jpg&_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGVhqex103dwMYAtlsw0DX6NPcwzHG5f3E09zDMcbl_ccNgwexChmjS4RJPz5A6PUbXawYUTwJRFuzNIU3i04oS&_nc_ohc=nHtkz_YHJzQAX92tvac&_nc_ht=scontent.fnak3-1.fna&oh=00_AfASemEO0t7VMS0Zesma3EX4WwENoxQVXWwL2C-HhZ9pCQ&oe=64999430" />
+  </div>
+  <div className="border bg-rose-200 block ">
+  <div className=' bg-rose-500 basis-1/2 text-center  '> 
+          <h1 className=' text-white m font-bold text-[30px] max-sm:text-[20px]'>ข้อมูลส่วนตัว</h1>
           </div>
-          <div className=' bg-rose-200 rounded-br-xl border border-black'>
-          <div className=' bg-rose-500 basis-1/2 text-center  '> 
-          <h1 className=' text-white m font-bold text-[30px]'>ข้อมูลส่วนตัว</h1>
-          </div>
-          <ul className='mt-2 ml-5 text-black text-[18px] '>
+          <ul className='mt-2 ml-5 text-black text-[18px] max-sm:text-[15px] max-md:text-[25px] '>
                 <li>ชื่อจริง : นายภูมินันท์ อนันตึก</li>
                 <li>ชื่อเล่น : เคน</li>
                 <li>กรุ๊ปเลือด : B</li>
@@ -71,13 +66,21 @@ export default function Home() {
                 <li>สาขา :สาขาวิศวกรรมคอมพิวเตอร์ </li>
                 <li>สถานศึกษา : มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน</li>
           </ul>
-          </div>
+
   </div>
+</div>
+
+            
+    </div>
+
+    </div>
+    
 
 
+  
 
      
-      </body>
+      
     </>
 
   )
