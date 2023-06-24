@@ -54,15 +54,21 @@ export default function Test() {
                         <p className="font-mono text-xl max-sm:text-sm text-slate-300" > Internship of web development from MePrompt Technology CO., LTD. </p>
                         
                         <div className='block xl:space-x-5 lg:space-x-5 md:space-x-5  md:space-y-5 max-sm:space-x-5 mt-5  '>
+                        <Link href='/portfolio'>
                         <button className="max-sm:mb-5 bg-blue-500 hover:bg-blue-700 text-white font-mono font-bold py-2 px-4 border border-blue-700 rounded">
                             Portfolio
                         </button>
+                        </Link>
+                        <Link href='/skills'>
                         <button className="max-sm:mb-5 bg-blue-500 hover:bg-blue-700 text-white font-mono font-bold py-2 px-4 border border-blue-700 rounded">
                             Skills
                         </button>
+                        </Link>
+                        <Link href='/expectation'>
                         <button className="bg-blue-500 hover:bg-blue-700 text-white font-mono font-bold py-2 px-4 border border-blue-700 rounded">
                             Expectation
                         </button>
+                        </Link>
                         </div>
                 </div>
                     
