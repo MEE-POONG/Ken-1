@@ -29,7 +29,10 @@ export default function Expectation() {
                                 <img className='w-10 h-10 hover:bg-blue-500' src="https://icon-library.com/images/white-home-icon-png/white-home-icon-png-21.jpg" />
                             </Link>
                         </div>
-                        <div className="flex space-x-5 text-white  text-[20px]">
+                        <div className="flex space-x-5 text-white  text-[20px] max-sm:text-[14px]">
+                            <Link href="/portfolio " className='hover:text-blue-500'>
+                                Portfolio
+                            </Link>
                             <Link href="/skills" className='hover:text-blue-500'>
                                 Skills
                             </Link>

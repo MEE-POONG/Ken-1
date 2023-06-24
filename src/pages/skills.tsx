@@ -18,7 +18,10 @@ export default function Skills(){
             <img className='w-10 h-10 hover:bg-blue-500' src="https://icon-library.com/images/white-home-icon-png/white-home-icon-png-21.jpg" />
             </Link>
           </div>
-          <div className="flex space-x-5 text-white  text-[20px]">
+          <div className="flex space-x-5 text-white  text-[20px] max-sm:text-[14px]">
+          <Link href="/portfolio " className='hover:text-blue-500'>
+                                Portfolio
+                            </Link>
             <Link href="/skills" className='neonred text-blue-500 hover:text-white' >
               Skills 
             </Link>
