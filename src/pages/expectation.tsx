@@ -30,13 +30,13 @@ export default function Expectation() {
                             </Link>
                         </div>
                         <div className="flex space-x-5 text-white  text-[20px] max-sm:text-[14px]">
-                            <Link href="/portfolio " className='hover:text-blue-500'>
+                            <Link href="/portfolio " className='font-mono hover:text-blue-500'>
                                 Portfolio
                             </Link>
-                            <Link href="/skills" className='hover:text-blue-500'>
+                            <Link href="/skills" className='font-mono hover:text-blue-500'>
                                 Skills
                             </Link>
-                            <Link href="/expectation " className='neonred text-blue-500 hover:text-white'>
+                            <Link href="/expectation " className='neonred font-mono text-blue-500 hover:text-white'>
                                 Expectation
                             </Link>
 
@@ -56,7 +56,7 @@ export default function Expectation() {
             <div className="flex justify-center items-center">
   <div className="h-[300px] w-[900px] max-sm:h-[420px] md:w-[700px] md:h-[250px] lg:h-[280px] max-sm:w-[350px] lg:w-[900px] rounded-lg p-5 bg-rose-200 outline outline-white shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] mb-10">
     <div className="flex justify-center items-center  bg-sky-500 rounded-3xl outline outline-white">
-      <p className="neonred text-center font-sans font-bold text-[20px] text-white ">Expectation</p>
+      <p className="neonred text-center font-mono font-bold text-[20px] text-white ">Expectation</p>
       <FcAcceptDatabase size={30} />
     </div>
     <div className='text-black text-[30px] mx-2 mt-2 max-sm:text-[20px] md:text-[20px] lg:text-[25px]  '>

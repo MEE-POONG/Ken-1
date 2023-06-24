@@ -10,7 +10,7 @@ export default function Test() {
 
 
             <Head>
-                <title>Phuminan's Page</title>
+                <title>Phuminan A</title>
             </Head>
 
 
@@ -23,14 +23,14 @@ export default function Test() {
                                 <img className='w-10 h-10 hover:bg-blue-500 ' src="https://icon-library.com/images/white-home-icon-png/white-home-icon-png-21.jpg" />
                             </Link>
                         </div>
-                        <div className="flex space-x-5 text-white  text-[20px] max-sm:text-[14px]">
-                            <Link href="/portfolio " className='hover:text-blue-500'>
+                        <div className="font-mono flex space-x-5 text-white  text-[20px] max-sm:text-[14px]">
+                            <Link href="/portfolio " className='font-mono hover:text-blue-500'>
                                 Portfolio
                             </Link>
-                            <Link href="/skills" className='hover:text-blue-500'>
+                            <Link href="/skills" className='font-mono hover:text-blue-500'>
                                 Skills
                             </Link>
-                            <Link href="/expectation " className='hover:text-blue-500'>
+                            <Link href="/expectation " className='font-mono hover:text-blue-500'>
                                 Expectation
                             </Link>
 
@@ -53,7 +53,7 @@ export default function Test() {
 
                         <p className="font-mono text-xl max-sm:text-sm text-slate-300" > Internship of web development from MePrompt Technology CO., LTD. </p>
                         
-                        <div className='block xl:space-x-5 lg:space-x-5 md:space-x-5  md:space-y-5 mt-5'>
+                        <div className='block xl:space-x-5 lg:space-x-5 md:space-x-5  md:space-y-5 max-sm:space-x-5 mt-5  '>
                         <button className="max-sm:mb-5 bg-blue-500 hover:bg-blue-700 text-white font-mono font-bold py-2 px-4 border border-blue-700 rounded">
                             Portfolio
                         </button>

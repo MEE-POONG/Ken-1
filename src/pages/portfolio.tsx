@@ -10,7 +10,7 @@ export default function Portfolio() {
 
 
             <Head>
-                <title>Phuminan's Page</title>
+                <title>Portfolio</title>
             </Head>
 
 
@@ -24,13 +24,13 @@ export default function Portfolio() {
                             </Link>
                         </div>
                         <div className="flex space-x-5 text-white  text-[20px] max-sm:text-[14px]">
-                            <Link href="/portfolio " className='neonred hover:text-blue-500'>
+                            <Link href="/portfolio " className=' font-mono neonred hover:text-blue-500'>
                                 Portfolio
                             </Link>
-                            <Link href="/skills" className='hover:text-blue-500'>
+                            <Link href="/skills" className='font-mono hover:text-blue-500'>
                                 Skills
                             </Link>
-                            <Link href="/expectation " className='hover:text-blue-500'>
+                            <Link href="/expectation " className='font-mono hover:text-blue-500'>
                                 Expectation
                             </Link>
 
@@ -41,7 +41,7 @@ export default function Portfolio() {
 
             <div className='mt-10 max-sm:mb-20 md:mb-20 lg:mb-20  '>
     <div className="grid grid-cols-1  ml-10 mr-10 shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] ">
-            <div className=' rounded-t-xl max-sm:text-[25px] neonred2  bg-black text-center font-sans text-[50px] font-bold text-red-500   '> 
+            <div className=' rounded-t-xl max-sm:text-[25px] neonred2  bg-black text-center font-mono text-[50px] font-bold text-red-500   '> 
             Portforlio 
             </div>
             
