@@ -81,19 +81,19 @@ export default function Expectation() {
           <img className='max-sm:w-[100px] max-sm:h-[100px]  md:w-[200px] md:h-[200px] lg:h-[300px] lg:w-[300px] border-4 border-black  rounded-2xl    w-[400px] h-[400px]'src="./fboro.jpg"  />
           </div>
           <div>
-          <img className='max-sm:w-[100px] max-sm:h-[100px] md:w-[200px] md:h-[200px] lg:h-[300px] lg:w-[300px] border-4 border-black rounded-2xl w-[400px] h-[400px]'src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg"  />
+          <img className='max-sm:w-[100px] max-sm:h-[100px] md:w-[200px] md:h-[200px] lg:h-[300px] lg:w-[300px] border-4 border-black rounded-2xl w-[400px] h-[400px]'src="https://images.theconversation.com/files/512871/original/file-20230301-26-ryosag.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"  />
           </div>
           <div>
-          <img className='max-sm:w-[100px] max-sm:h-[100px] md:w-[200px] md:h-[200px] lg:h-[300px] lg:w-[300px] border-4 border-black rounded-2xl w-[400px] h-[400px]'src="https://www.befunky.com/images/prismic/5ddfea42-7377-4bef-9ac4-f3bd407d52ab_landing-photo-to-cartoon-img5.jpeg?auto=avif,webp&format=jpg&width=863"  />
+          <img className='max-sm:w-[100px] max-sm:h-[100px] md:w-[200px] md:h-[200px] lg:h-[300px] lg:w-[300px] border-4 border-black rounded-2xl w-[400px] h-[400px]'src="https://m.media-amazon.com/images/I/71PWqH6J4DL.jpg"  />
           </div>
           <div>
-          <img className='max-sm:w-[100px] max-sm:h-[100px] md:w-[200px] md:h-[200px] lg:h-[300px] lg:w-[300px] border-4 border-black rounded-2xl w-[400px] h-[400px]'src="https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg"  />
+          <img className='max-sm:w-[100px] max-sm:h-[100px] md:w-[200px] md:h-[200px] lg:h-[300px] lg:w-[300px] border-4 border-black rounded-2xl w-[400px] h-[400px]'src="https://paulbelford.com/assets/media/designs/uploads/articles/1920/front3_y2HDm6j.jpg"  />
           </div>
           <div>
-          <img className='max-sm:w-[100px] max-sm:h-[100px] md:w-[200px] md:h-[200px] lg:h-[300px] lg:w-[300px] border-4 border-black rounded-2xl w-[400px] h-[400px]'src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg"  />
+          <img className='max-sm:w-[100px] max-sm:h-[100px] md:w-[200px] md:h-[200px] lg:h-[300px] lg:w-[300px] border-4 border-black rounded-2xl w-[400px] h-[400px]'src="https://upload.wikimedia.org/wikipedia/en/7/74/Pink_Floyd-Animals-Frontal.jpg"  />
           </div>
           <div>
-          <img className='max-sm:w-[100px] max-sm:h-[100px] md:w-[200px] md:h-[200px] lg:h-[300px] lg:w-[300px] border-4 border-black  rounded-2xl w-[400px] h-[400px]' src="https://static.vecteezy.com/packs/media/vectors/term-bg-1-3d6355ab.jpg"  />
+          <img className='max-sm:w-[100px] max-sm:h-[100px] md:w-[200px] md:h-[200px] lg:h-[300px] lg:w-[300px] border-4 border-black  rounded-2xl w-[400px] h-[400px]' src="https://musicaficionado.blog/wp-content/uploads/2019/11/The-Wall-front-cover.jpg"  />
           </div>
         </Slider>
       </div>
