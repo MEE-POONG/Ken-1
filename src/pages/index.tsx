@@ -74,7 +74,7 @@ export default function Test() {
                     
                     
                 <div className="  items-center flex xl:mr-40 lg:mr-20 md:mr-20  max-sm:mr-0 max-sm:mt-10   " >
-                <img className=' w-[500px] rounded-full border-2 'src="https://scontent.fnak3-1.fna.fbcdn.net/v/t39.30808-6/335591418_1566633160499640_8499768689655654892_n.jpg?stp=cp6_dst-jpg&_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGVhqex103dwMYAtlsw0DX6NPcwzHG5f3E09zDMcbl_ccNgwexChmjS4RJPz5A6PUbXawYUTwJRFuzNIU3i04oS&_nc_ohc=nHtkz_YHJzQAX92tvac&_nc_ht=scontent.fnak3-1.fna&oh=00_AfASemEO0t7VMS0Zesma3EX4WwENoxQVXWwL2C-HhZ9pCQ&oe=64999430" />
+                <img className=' w-[500px] rounded-full border-2 'src="./fboro.jpg" />
                 </div>
                     
                 

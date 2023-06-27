@@ -78,7 +78,7 @@ export default function Expectation() {
         <h2 className='text-center mb-5 text-white '> Gallery </h2>
         <Slider {...settings}>
           <div className=''>
-          <img className='max-sm:w-[100px] max-sm:h-[100px]  md:w-[200px] md:h-[200px] lg:h-[300px] lg:w-[300px] border-4 border-black  rounded-2xl    w-[400px] h-[400px]'src="https://scontent.fnak3-1.fna.fbcdn.net/v/t39.30808-6/335591418_1566633160499640_8499768689655654892_n.jpg?stp=cp6_dst-jpg&_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGVhqex103dwMYAtlsw0DX6NPcwzHG5f3E09zDMcbl_ccNgwexChmjS4RJPz5A6PUbXawYUTwJRFuzNIU3i04oS&_nc_ohc=nHtkz_YHJzQAX92tvac&_nc_ht=scontent.fnak3-1.fna&oh=00_AfASemEO0t7VMS0Zesma3EX4WwENoxQVXWwL2C-HhZ9pCQ&oe=64999430"  />
+          <img className='max-sm:w-[100px] max-sm:h-[100px]  md:w-[200px] md:h-[200px] lg:h-[300px] lg:w-[300px] border-4 border-black  rounded-2xl    w-[400px] h-[400px]'src="./fboro.jpg"  />
           </div>
           <div>
           <img className='max-sm:w-[100px] max-sm:h-[100px] md:w-[200px] md:h-[200px] lg:h-[300px] lg:w-[300px] border-4 border-black rounded-2xl w-[400px] h-[400px]'src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg"  />

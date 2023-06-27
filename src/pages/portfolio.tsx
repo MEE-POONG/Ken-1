@@ -47,7 +47,7 @@ export default function Portfolio() {
             
             <div className="grid grid-cols-2 max-sm:grid-cols-1 ">
   <div className="border bg-rose-200 justify-center items-center flex ">
-    <img className=' w-[400] max-sm:w-[200px] md:w-[280px] lg:w-[400px] shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] mt-10 mb-10 rounded-2xl 'src="https://scontent.fnak3-1.fna.fbcdn.net/v/t39.30808-6/335591418_1566633160499640_8499768689655654892_n.jpg?stp=cp6_dst-jpg&_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGVhqex103dwMYAtlsw0DX6NPcwzHG5f3E09zDMcbl_ccNgwexChmjS4RJPz5A6PUbXawYUTwJRFuzNIU3i04oS&_nc_ohc=nHtkz_YHJzQAX92tvac&_nc_ht=scontent.fnak3-1.fna&oh=00_AfASemEO0t7VMS0Zesma3EX4WwENoxQVXWwL2C-HhZ9pCQ&oe=64999430" />
+    <img className=' w-[400] max-sm:w-[200px] md:w-[280px] lg:w-[400px] shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] mt-10 mb-10 rounded-2xl 'src="./fboro.jpg" />
   </div>
   <div className="border bg-rose-200 block ">
   <div className=' bg-rose-500 basis-1/2 text-center  '> 
