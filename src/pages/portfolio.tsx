@@ -42,7 +42,7 @@ export default function Portfolio() {
             <div className='mt-10 max-sm:mb-20 md:mb-20 lg:mb-20  '>
     <div className="grid grid-cols-1  ml-10 mr-10 shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] ">
             <div className=' rounded-t-xl max-sm:text-[25px] neonred2  bg-black text-center font-mono text-[50px] font-bold text-red-500   '> 
-            Portforlio 
+            Portfolio 
             </div>
             
             <div className="grid grid-cols-2 max-sm:grid-cols-1 ">
